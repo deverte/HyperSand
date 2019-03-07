@@ -98,26 +98,6 @@ def throw_points(data, number):
         points[key] = column
     return points
 
-def n_throw_points(data, number):
-    """
-    (DERPECATED)
-    Генерация случайных точек для заданных данных в зависимости от размерности.
-
-    Параметры:
-        data - таблица с данными. Данные могут быть произвольной размерности.
-    Тип - pandas.DataFrame.
-        number - количество генерируемых точек. Тип - int.
-
-    Возвращает сгенерированные точки. Тип - pandas.DataFrame.
-    """
-    points = pd.DataFrame()
-    for i in range(number):
-        row = pd.DataFrame(index=data.keys())
-        for key in data.keys():
-            row[key] = random.uniform(data[key].min(), data[key].max())
-        points = points.append(row)
-    return points
-
 def get_intersections(data, point, precision):
     """
     Получение всех пересечения точки по каждой координате с графиком в фазовой

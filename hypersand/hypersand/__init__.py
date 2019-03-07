@@ -4,7 +4,6 @@ from .generator import createDF
 from .generator import generateDF
 from .interpfs import get_interpfs
 from .montecarlo import throw_points
-from .montecarlo import n_throw_points
 from .montecarlo import get_intersections
 from .montecarlo import is_hit
 from .montecarlo import hit_analysis
