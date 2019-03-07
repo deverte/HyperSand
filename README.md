@@ -51,18 +51,22 @@ HyperSand - библиотека для языка программирован�
 Загрузите библиотеку по [ссылке](https://github.com/deverte/HyperSand/archive/master.zip ).  
 2 способ:  
 Если у вас установлен [git], то выполните в терминале команду:  
-```git clone https://github.com/deverte/HyperSand
+```
+git clone https://github.com/deverte/HyperSand
 ```
 2. Перейдите в директорию с библиотекой  
-```cd HyperSand/hypersand
+```
+cd HyperSand/hypersand
 ```
 3. Установите библиотеку с помощью [pip]  
-```pip install .
+```
+pip install .
 ```
 
 ## Удаление
 Выполните команду:  
-```pip uninstall hypersand
+```
+pip uninstall hypersand
 ```
 
 ## License
