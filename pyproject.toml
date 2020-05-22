@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hypersand"
+version = "0.0.2"
+description = "Calculating the volume of an n-dimensional figure using the Monte Carlo method"
+authors = ["deverte <deverte@ya.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.18.4"
+pandas = "^1.0.3"
+scipy = "^1.4.1"
+matplotlib = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

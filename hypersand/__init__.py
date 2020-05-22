@@ -1,3 +1,5 @@
+__version__ = "0.0.2"
+
 from .generator import generate
 from .generator import reduce
 from .generator import createDF
