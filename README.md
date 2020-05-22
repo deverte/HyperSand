@@ -48,11 +48,11 @@ HyperSand - библиотека для языка программирован�
 ## Установка
 Необходим установленный [git](https://git-scm.com/) и [Python](https://www.python.org/):  
 ```sh
-pip install git+https://github.com/deverte/HyperSand/releases/download/v0.0.2/hypersand-0.0.2-py3-none-any.whl
+pip install https://github.com/deverte/HyperSand/releases/download/v0.0.2/hypersand-0.0.2-py3-none-any.whl
 ```
 или
 ```sh
-pip install git+https://github.com/deverte/HyperSand/releases/download/v0.0.2/hypersand-0.0.2.tar.gz
+pip install https://github.com/deverte/HyperSand/releases/download/v0.0.2/hypersand-0.0.2.tar.gz
 ```
 
 ## Удаление
